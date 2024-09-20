@@ -1,0 +1,293 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  /* background: rgb(255,255,255);
+background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(0,139,139,1) 73%, rgba(38,48,99,1) 100%); */
+}
+p {
+  line-height: 1.9;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+* {
+  padding: 0;
+  margin: 0;
+}
+body::-webkit-scrollbar {
+  /* width: 10px;                */
+}
+body::-webkit-scrollbar-track {
+  /* background: red;         */
+}
+
+body::-webkit-scrollbar-thumb {
+  /* background-color: darkcyan;      */
+  /* border-radius: 20px;         */
+  /* border: 3px solid darkcyan;    */
+}
+ /* .deleteLoader{
+  position: absolute;
+top: 100px;
+ left: 50px;
+ 
+
+ }  */
+ /********************************/
+
+/* BooksDoctors */
+.books .layout {
+  background-color: #000000b1;
+  width: 100%;
+  height: 100%;
+  inset: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.books .layout .details {
+  width: 60%;
+  height: 400px;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.admin input[type="file"]{
+
+width: 100%;
+
+}
+
+.books .layout .details .book-Doctors {
+  margin-top: 20px;
+  /* display: flex; */
+  /* flex-wrap: wrap; */
+  /* flex-direction: column; */
+  /* gap: 30px; */
+}
+
+.book-Doctor {
+  background-color: white;
+  border-radius: 20px;
+  border: 2px solid #616667;
+  padding: 20px;
+}
+
+.book-Doctors .imgDoctor img {
+  width: 130px;
+}
+
+.book-Doctor .detailsDoctor h4,
+p {
+  margin: 0;
+  margin-left: 20px;
+}
+
+.buttonBook button {
+  border-radius: 30px;
+  border: none;
+  background-color: #94C9F0;
+  color: #565959;
+  padding: 5px 40px;
+}
+
+.layoutt {
+  background-color: red;
+  position: relative;
+  inset: 0;
+  z-index: 3;
+  background-color: rgba(0, 0, 0, 0.441);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.layoutt::after {
+  content: '';
+
+  position: absolute;
+  width: 500px;
+  height: 500px;
+  background-color: red;
+}
+
+
+
+.books .layout .details .iconClose {
+  top: 5px;
+  right: 10px;
+  font-size: 25px;
+}
+
+.books .layout .details .iconClose i {
+  cursor: pointer;
+}
+
+.layout .namePatientBook input {
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: 900;
+  padding-left: 3px;
+}
+
+.books .layout .details .submit {
+  bottom: 15px;
+  right: 10px;
+}
+
+.books .layout .details .submit button {
+  padding: 10px 20px;
+  border-radius: 10px;
+  border: 3px solid #69b4ed;
+  background-color: #69b4ed;
+  color: white;
+}
+
+.books .layout .details .submit button:hover {
+  background-color: white;
+  color: black;
+  border: 3px solid #69b4ed;
+  transition: .5s border;
+}
+
+/* .personalAccount */
+.personalAccount h4 {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 700;
+  font-size: 35px;
+}
+
+.personalAccount h3 {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 800;
+  margin-bottom: 30px;
+  color: white;
+}
+ 
+.personalAccount .Details .personalInformatons {
+  background-color: cadetblue;
+  padding: 30px 20px;
+  /* width: 40%; */
+  /* font-size: 20px; */
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: 900;
+  line-height: 3;
+  border-radius: 20px;
+}
+
+.personalAccount .Details .personalInformatons p i {
+  margin-right: 10px;
+  color: white;
+  /* font-size: 23px; */
+}
+
+/* .history */
+
+.personalAccount .history {
+  /* width: 40%; */
+  height: 500px;
+  background-color: cadetblue;
+  border-radius: 20px;
+  padding: 30px 20px;
+}
+
+.oneHistory{
+  background-color: white;
+  color: darkcyan;
+  border-radius: 10px;
+}
+/* .reservations  */
+
+.reservations {
+  overflow-y: auto;
+  height: 500px;
+  background-color: cadetblue;
+  padding: 30px 20px;
+  border-radius: 20px;
+}
+
+
+.reservations .book-Doctor {
+  margin-bottom: 25px;
+}
+
+.reservations .book-Doctor img {
+  width: 90px;
+  border-radius: 50%;
+}
+
+.reservations .book-Doctor .detailsDoctor h4 {
+  line-height: 2;
+}
+
+.reservations .book-Doctor .buttonBook button {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #B81A1A;
+  border: 1px solid #707070;
+  color: white;
+}
+
+
+@media screen and (min-width:220px) and (max-width:576px) {
+  .reservations .book-Doctor .buttonBook button {
+    margin-top: 20px;
+  }
+}
+
+@media screen and (min-width:310px) and (max-width:418px) {
+
+  .reservations .book-Doctor .detailsDoctor h4 {
+    font-size: 22px;
+    margin-bottom: 10px;
+  }
+}
+
+
+.hidetap {
+  display: none;
+}
+
+
+@media screen and (min-width:577px) and (max-width:991px) {
+
+  .personalAccount .Details .personalInformatons {
+
+    width: 100%;
+  }
+
+  .personalAccount .Details .personalInformatons {
+
+    width: 100%;
+  }
+}
+
+@media screen and (min-width:310px) and (max-width:418px) {
+
+  .reservations .book-Doctor .detailsDoctor h4 {
+    font-size: 22px;
+    margin-bottom: 10px;
+  }
+}
+
+@media screen and (min-width:310px) and (max-width:324px) {
+
+
+  .personalAccount .Details .personalInformatons .idCard {
+    font-size:18px ;
+  }
+
+
+}
+
+ 
+
+
+.hide{
+  display: none;
+}

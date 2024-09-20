@@ -1,0 +1,29 @@
+.image{
+    /* width: 100px; */
+    width: 50%;
+}
+.phover{
+    position: relative;
+    text-decoration: none;
+    color: #333;
+    font-size: 20px;
+}
+.phover:hover{
+
+    cursor: pointer;
+}
+.phover::after{
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 3px;
+    bottom: 0;
+    background-color: darkcyan;
+    border-radius: 2px;
+    left:0;
+    transition-duration: .5s;
+}
+.phover:hover::after{
+
+    width: 100%;
+}

@@ -1,0 +1,41 @@
+.inp{
+    background-color: #adb5bd !important;
+    /* color: white !important; */
+   /* max-width: 500px; */
+    border-radius: 30px;
+    border:1px solid transparent;
+    outline: none;
+}
+ 
+.login h2 {
+    font-size: 37px;
+    line-height: 1.6;
+    font-family: 'Montserrat', sans-serif;
+    color: #585858;
+}
+.login button{
+    border: none;
+background-color: darkcyan;
+color: white;
+border-radius: 10px;
+/* width: 50%; */
+height: 50px;
+font-size: 20px;
+}
+.login a{
+    display: inline-block;
+    text-decoration: none;
+    color: rgb(84, 84, 84);
+    /* background-color: #585858; */
+    /* min-height: 50px; */
+    /* padding-top: 10px; */
+    /* border-radius: 10px; */
+}
+.block{
+    background-color:#dee2e6;
+    /* border-radius: 20px; */
+}
+.login{
+    background-color: #5858584f;
+  
+}

@@ -1,0 +1,10 @@
+.admin button{
+
+    border: none;
+    background-color: darkcyan;
+    color: white;
+    border-radius: 10px;
+    /* width: 50%; */
+    height: 50px;
+    font-size: 20px;
+}

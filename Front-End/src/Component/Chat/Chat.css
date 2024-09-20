@@ -1,0 +1,205 @@
+.chatSupport .circleSupport {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: cadetblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 15px;
+    right: 10px;
+    cursor: pointer;
+}
+
+.chatSupport .circleSupport i {
+    color: white;
+    font-size: 35px;
+}
+
+.hideChat {
+    display: none;
+}
+
+/* ================================ */
+
+.allChats {
+    width: 40%;
+overflow: scroll
+;
+}
+
+.allChats .chats  .btnChat{
+    background-color: cadetblue;
+    padding-top: 10px;
+    border-radius: 40px;
+    width: 90%;
+    height: 100px;
+    overflow: hidden;
+    margin-top: 20px;
+    padding-left: 25px;
+    color: white;
+    cursor: pointer;
+    text-align: start;
+
+
+}
+
+.allChats .chats .btnChat h5 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.allChats .chats p {
+    margin: 0;
+    color: rgba(255, 255, 255, 0.811);
+}
+
+
+.allChats .chats .date
+{
+    width: 56%;
+    text-align: center;
+    font-weight: 700;
+    font-size: 10px;
+    align-self: flex-end;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ============================================================= */
+.chat {
+    border: 5px solid cadetblue;
+    position: relative;
+    z-index: 54;
+}
+
+.chat .headerChat {
+    border-bottom: 1px solid #000;
+    color: white;
+    background-color: cadetblue;
+}
+
+.chat .headerChat h5 {
+    padding: 10px 0;
+    padding-left: 5px;
+    font-size: 17px;
+    margin: 0;
+}
+
+.chat .chatMessages {
+    background-color: white;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    height: 50%;
+    overflow-y: scroll;
+}
+
+
+.chat .chatMessages .message {
+    margin-top: 10px;
+    border-radius: 25px;
+    padding: 10px 10px;
+    width: 60%;
+    word-wrap: break-word;
+    line-height: 1.5;
+    margin-left: 5px;
+    direction: rtl;
+    background-color: rgb(68, 67, 67);
+
+}
+
+.chat .chatMessages p {
+    margin: 0;
+    font-size: 12px;
+    font-weight: 600;
+    color: white;
+}
+
+
+
+.chat .chatMessages .rightMessage {
+    background-color: cadetblue;
+    direction: rtl;
+    margin-top: 20px;
+    padding-right: 10px;
+    position: relative;
+    right: -38%;
+}
+
+ .chat .chat-input {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    align-items: center;
+    position: relative;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    padding: 10px 0;
+    border-top: 1px solid #000;
+    background-color: cadetblue;
+}
+
+.chat .chat-input input {
+    border-radius: 20px;
+    border: 1px solid #31303066;
+    margin-left: 3px;
+    padding: 10px 0;
+    padding-left: 5px;
+    font-size: 15px;
+    width: 90%;
+}
+
+.chat .chat-input button {
+    border-radius: 50%;
+    border: 1px solid rgba(49, 48, 48, 0.399);
+    width: 45px;
+    height: 45px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.chat .chat-input i {
+    font-size: 15px;
+}
+
+input:focus {
+    outline: none;
+} 
+
+.closeDelete
+{
+    width: 22px;
+    height: 21px;
+    color: black;
+    border: none;
+    border-radius: 50%;
+    position: absolute;
+    background-color: white;
+ 
+    top: 10px;
+    right: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
